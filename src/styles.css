@@ -12,6 +12,7 @@ background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 .grid-2-columns{
     grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
 }
 .grid-3-columns-with-first-narrow{
     grid-template-columns: 1fr 2fr 2fr;
@@ -126,9 +127,22 @@ width: 500px;
     height: 500px;
 }
 .img-responsive{
-  width: 400px;
-  height: 400px;
+width: 100%;
    display: block;
+}
+
+.embed-1{
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 1/1;
+}
+.img-responsive-1{
+    width: 200px;
+    height: 200px;
+}
+.spotify{
+    width: 200px;
+    height: 200px;
 }
 main h2{
     font-weight: 700;
@@ -211,4 +225,12 @@ footer a {
     section{
         padding: 30px;
     }
+    .card-header img{
+        display:none;
+    }
+  .embed{
+      aspect-ratio: 16 / 9;
+  }
+       
+    
 }
