@@ -16,6 +16,48 @@ background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 .grid-3-columns-with-first-narrow{
     grid-template-columns: 1fr 2fr 2fr;
 }
+.text-center{
+    text-align: center;
+}
+.grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.card{
+    background: white;
+    margin: 30px 0;
+
+}
+.card h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 10px;
+    text-align: center;
+}
+.card-body {
+    padding: 30px;
+}
+
+.card-footer {
+    padding: 0 30px 30px;
+}
+.btn{
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background: #462cb3;
+    text-decoration: none;
+    margin: 50px;
+}
+
 header{
     background-image:  url("images/books-01.jpg");
     background-repeat: no-repeat;
@@ -28,6 +70,9 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
+}
+section .secondary{
+    background: #f8f8f8;
 }
 header h1{
     font-weight: 700;
@@ -50,6 +95,7 @@ header h3 {
     letter-spacing: 5px;
     margin: 0;
 }
+
 
 header a{
 font-weight: 700;
@@ -74,6 +120,15 @@ main{
 img {
     max-width: 100%;
     height: auto;
+}
+.img-relaxing{
+width: 500px;
+    height: 500px;
+}
+.img-responsive{
+  width: 400px;
+  height: 400px;
+   display: block;
 }
 main h2{
     font-weight: 700;
