@@ -140,10 +140,11 @@ width: 100%;
     width: 200px;
     height: 200px;
 }
-.spotify{
-    width: 200px;
-    height: 200px;
+.img-responsive-2{
+    width: 400px;
+        height: 400px;
 }
+
 main h2{
     font-weight: 700;
     font-size: 16px;
@@ -219,7 +220,7 @@ footer a {
         grid-template-columns: 1fr;
         grid-gap: 32px;
     }
-    .img-responsive{
+    .img-responsive-1{
         max-width: 100;
     }
     section{
@@ -228,9 +229,11 @@ footer a {
     .card-header img{
         display:none;
     }
-  .embed{
-      aspect-ratio: 16 / 9;
+  .embed-1{
+     aspect-ratio: 16/1;
   }
-       
+        .img-responsive-2{
+           display: block;
+        }
     
 }
